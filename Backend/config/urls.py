@@ -23,4 +23,8 @@ urlpatterns = [
         "api/auth/",
         include("apps.authentication.urls")
     ),
+    path(
+    "api/tasks/",
+    include("apps.tasks.urls")
+),
 ]
